@@ -172,23 +172,4 @@ ecosystem-project/
 - Déployer le flow
 - Rafraîchir la page du dashboard
 
-## 👥 Auteur
 
-Projet réalisé dans le cadre d'un système de surveillance agricole IoT.
-
-## 📄 Licence
-
-MIT License - Libre d'utilisation et de modification
-
-## 🌟 Améliorations Futures
-
-- [ ] Ajout de notifications push
-- [ ] Historique long terme en base de données
-- [ ] Application mobile
-- [ ] Mode économie d'énergie
-- [ ] Prévisions météo intégrées
-- [ ] ML pour optimisation automatique des seuils
-
----
-
-**🚀 Prêt à cultiver intelligemment !**
