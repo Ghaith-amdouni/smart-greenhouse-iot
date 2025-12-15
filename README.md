@@ -1,8 +1,8 @@
-# 🌱 Système de Serre Intelligente IoT
+# Système de Serre Intelligente IoT
 
 Projet de surveillance et contrôle automatique d'une serre agricole utilisant ESP32, capteurs environnementaux et Node-RED.
 
-## 📋 Description
+## Description
 
 Ce système permet de :
 - 📊 Surveiller la température, humidité, luminosité et CO2 en temps réel
@@ -85,7 +85,7 @@ node-red
 
 Ouvrir dans le navigateur : `http://localhost:1880/ui`
 
-## ⚙️ Configuration
+## Configuration
 
 ### Paramètres WiFi (ESP32)
 ```cpp
@@ -115,7 +115,7 @@ const char* password = "";
 - 🔴🟢 Indicateurs d'état ON/OFF pour chaque actionneur
 - 🎮 Contrôle manuel de l'irrigation
 
-## 📁 Structure du Projet
+## Structure du Projet
 
 ```
 ecosystem-project/
