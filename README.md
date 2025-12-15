@@ -11,7 +11,7 @@ Ce système permet de :
 - 📈 Visualiser les données via un dashboard Node-RED
 - 🔔 Déclencher des alertes en cas de conditions anormales
 
-## 🏗️ Architecture du Système
+## Architecture du Système
 
 ### Matériel (ESP32)
 - **Microcontrôleur** : ESP32
@@ -38,7 +38,7 @@ Ce système permet de :
   - `serre/lightControl`
   - `serre/ventilation`
 
-## 🖼️ Captures d'écran
+
 
 ### Dashboard Node-RED
 ![Dashboard](dashboard.png)
@@ -49,7 +49,7 @@ Ce système permet de :
 ### Configuration Node-RED
 ![Node-RED Config](node-red-config.png)
 
-## 🚀 Installation
+## Installation
 
 ### 1. Configuration ESP32 (Wokwi)
 
@@ -101,7 +101,7 @@ const char* password = "";
 // Ventilation : CO2 > 2000 ppm
 ```
 
-## 📊 Fonctionnalités
+## Fonctionnalités
 
 ### Automatisation
 - ✅ **Irrigation intelligente** : Activation automatique si humidité basse et absence de pluie
@@ -131,7 +131,7 @@ ecosystem-project/
 └── README.md                # Ce fichier
 ```
 
-## 🛠️ Technologies Utilisées
+## Technologies Utilisées
 
 - **Hardware** : ESP32
 - **Langage** : C++ (Arduino)
@@ -143,7 +143,7 @@ ecosystem-project/
   - PubSubClient.h
   - DHT.h
 
-## 📝 Topics MQTT
+## Topics MQTT
 
 | Topic | Type | Description |
 |-------|------|-------------|
@@ -157,7 +157,7 @@ ecosystem-project/
 | serre/lightControl | Publier | État éclairage (ON/OFF) |
 | serre/ventilation | Publier | État ventilation (ON/OFF) |
 
-## 🔧 Dépannage
+## Dépannage
 
 ### ESP32 ne se connecte pas
 - Vérifier les credentials WiFi
